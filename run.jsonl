@@ -1,0 +1,2 @@
+{"type": "incoming", "chat_id": 8318873193, "text": "\"What is 15% of 200?", "timestamp": 1785426888.647923}
+{"type": "outgoing", "chat_id": 8318873193, "text": "{\"answer\": 30, \"log_url\": \"PASTE_YOUR_PUBLIC_LOG_URL_HERE\"}", "timestamp": 1785426895.557645}
