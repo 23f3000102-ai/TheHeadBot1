@@ -8,7 +8,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filte
 # --- fill these in with your own values ---
 TELEGRAM_BOT_TOKEN = "8896931053:AAHjdwgjzCw88xu9V3ozurkVvIV8rH9nMmk"
 AIPIPE_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIzZjMwMDAxMDJAZHMuc3R1ZHkuaWl0bS5hYy5pbiIsImlhdCI6MTc4NTQyNjc0MiwiaXNzIjoiaHR0cHM6Ly9haXBpcGUub3JnIiwiYXVkIjoiYWlwaXBlLWFwaSIsImV4cCI6MTc4NjAzMTU0Mn0.ijd0FA9XiVc2KDoRAN0ItpVsk-gke4oZJDtUkg6arvs"
-LOG_URL = "PASTE_YOUR_PUBLIC_LOG_URL_HERE"  # see Step 5 — where run.jsonl will be hosted
+LOG_URL = "https://raw.githubusercontent.com/23f3000102-ai/TheHeadBot1/refs/heads/main/run.jsonl"  # see Step 5 — where run.jsonl will be hosted
 # -------------------------------------------
 
 client = OpenAI(base_url="https://aipipe.org/openai/v1", api_key=AIPIPE_TOKEN)
